@@ -35,6 +35,8 @@ PWM_DIS_GPIO.write(False)
 LTE_WDIS_GPIO.write(False)
 LTE_RST_GPIO.write(False)
 
+print("Init System . . . .")
+
 while True:
     try:
         print("RFID_IRQ_GPIO.read() ---> ", RFID_IRQ_GPIO.read(), "  CFCI_GPIO.read() ---> ", CFCI_GPIO.read())
