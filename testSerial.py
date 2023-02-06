@@ -1,5 +1,7 @@
-#sudo nano /boot/config.txt
-
+# sudo nano /boot/config.txt
+# dmesg | grep tty
+# https://python-periphery.readthedocs.io/en/latest/serial.html
+# https://tinker-board.asus.com/images/doc/download/Getting_Started_202003.pdf
 
 
 from periphery import GPIO
